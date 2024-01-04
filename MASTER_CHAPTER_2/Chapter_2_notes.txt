@@ -1,0 +1,130 @@
+Markup languages
+	HTML
+		Hypertext Markup Language
+			Each makeup code is called an <element> or a <tag>
+	
+	XML
+		eXtensible Markup Language
+	
+	XHTML
+		eXtensible Hypertext Markup Language
+	
+	HTML5
+		Replaces XHTML
+		2014
+	
+Define Doc Type
+	Document Type Definition (DTD)
+		<!DOCTYPE html>
+	
+HTML Element
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<title> INSERT TITLE HERE </title>
+			</head>
+			<body>
+            
+			</body>
+		</html>
+
+
+Meta Element
+	Character encoding
+		Does not need to be closed, Stand alone
+		
+		<meta charset="utf-8">
+
+Body Element
+	<body> </body>
+
+Heading Element
+	<h1> </h1>
+		The smaller the number the larger the txt
+		
+Paragraph Element
+	<p> </p>
+	Blocks the txt
+	
+Line Break Element
+	<br>
+	breaks txt up on new lines
+	No closing needed
+	
+Blockquote Element
+	<blockquote> </blockquote>
+	Displays a block of txt in a special way
+	Indented from both left and right margins 
+
+Phrase Element
+	<abbr>	Indicates an abbreviated form like pvt. inc. etc.
+	<acronym>	Indicates an acronym (e.g., WAC, radar, etc.).
+	<em>	Indicates emphasis.
+	<strong>	Indicates stronger emphasis.
+	<cite>	Contains a citation or a reference to other sources.
+	<dfn>	Indicates that this is the defining instance of the enclosed term.
+	<code>	Designates a fragment of computer code.
+	<samp>	Designates sample output from programs, scripts, etc.
+	<kbd>	Indicates text to be entered by the user.
+	<var>	Indicates an instance of a variable or program argument.
+	
+Ordered List
+	<ol>
+		<li> Red </li>
+		<li> Blue </li>
+		<li> Green </li>
+	</ol>
+	
+	a for lowercase letters
+	A for uppercase letters
+	i for lowercase Roman numerals
+	I for uppercase Roman numerals
+	1 for numbers (default)
+	
+Unordered Lists
+	<ul>
+		<li> Red </li>
+		<li> Blue </li>
+		<li> Green </li>
+	</ul>
+	
+	Uses bullets not numbers
+	
+Description List
+	organize terms and their descriptions
+		<dl>
+			<dt> </dt> terms
+			<dd> </dd> descriptions
+		</dl>
+		
+Special Character
+	Character	Entity Number	Entity Name	Description
+			"	&#34;	&quot;	quotation mark
+			'	&#39;	&apos;	apostrophe 
+			&	&#38;	&amp;	ampersand
+			<	&#60;	&lt;	less-than
+			>	&#62;	&gt;	greater-than
+			
+Structure Elements
+	Div
+		Division of a web page
+		<div> </div>
+	
+	Header
+		<header> </header>
+	
+	Nav
+		Navigation links
+		<nav> </nav>
+	
+	Main
+		contain main content of web page
+		<main> </main>
+		
+	Footer
+	<footer> </footer>
+	
+Hyperlinks
+	href
+	<a href="LINK"> </a>

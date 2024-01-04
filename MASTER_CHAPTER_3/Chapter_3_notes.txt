@@ -1,0 +1,114 @@
+Cascading Style Sheets CSS
+
+Advantages
+	- Typography and page layout can be better controlled
+	- sytle is separate from structure
+	- sytle can be stored
+	- Docs are potentually smaller
+	- site maintenece is easier
+
+Methods to incorporate
+	- Inline Styles
+	- Embedded Styles
+	- External Styles
+	- Imported Styles
+
+Style Rule Selector
+	HTML element name, class name, or an id name
+
+Style Rule Declaration
+	indicates the CSS property you are setting (such as color) and the valie you are assigning to the property
+
+	body { color: blue }
+	^Selector
+			^ Declaration Property
+					^ Declaration Value
+
+Colors on Web Pages
+	
+	RGB (red, green, blue)
+		- Hexadencimal Color Values	{ color: #FF0000;}
+		- Color name  { color: red; }
+		- Hexadencimal shorthand color value { color: #F00; }
+		- decimal color value (color rgb(255,0,0); }
+		- HSL (Hue, Saturation, and Lightness) color value notation { color: hsl(0, 100%, 50%); }
+		
+Inline CSS Style Attribute
+	<h1 style="color:red"> This displays as a red heading </h1>
+	<h1 style="color:red;background-color:gray"> This displays as a red heading on a grey background</h1>
+	
+Embedded CSS Style Attribute
+	<style> </stytle>
+	Apply to the entire document
+	
+	<!DOCTYPE html>
+	<html lang="en">
+	<title> Style </title>
+	<meta charset="utf-8">
+	<stlye>
+	body { background-color: red;
+		color: blue;
+	}
+	</style>
+	etc....
+		
+Configuring Text with CSS
+	front-family proptery
+	p { font-family: Arial, Helventica, sans-serif; }
+	
+
+Class,Id, Descendant Selectors
+	CSS Class Selector when you need to apply a CSS declaration 
+	To set the style of a class place a period in front of the class name
+		.feature { color: red; }
+	
+	class attribute
+		class="feature"
+			<li class="feature">Usability Studies</li>
+	
+	Id Selector
+		identify and apply CSS rule uniquely to a single area on a web page
+		
+		#feature { color: red; }
+		<div id="feature"> This sentence will be displayed using styles configured with in the featuer id.</div>
+		
+Span Element
+	.company { front-weight: bold;
+			   front-family: Georgia, "times New roman", serif;
+			   front-size: 1.25em; }
+	
+	<p><span class="company"> ENTER TXT HERE</span>
+		
+
+External Style Sheets
+	Link Element
+		associates an external CSS with a web page.
+		Placed in the head section of the page
+			- rel attribute is "stylesheet"
+			- href attribute is the name of the stlye sheet file
+		
+		<link rel="stylesheet" href="color.css">
+		 
+Center HTML Elements
+	"wraps"
+	
+	#wrapper { width: 960px;
+				margin-left: auto;
+				margin-right: auto; }
+	
+			<body>
+			<div id="wrapper">
+			 ... page content ...
+			 </div>
+			 </body>
+	
+The Cascade
+	
+	Browser Defaults
+		External Styles
+			Embedded Styles
+				Inline Styles
+	
+CSS Validation
+	W3C has a CSS validator
+	
