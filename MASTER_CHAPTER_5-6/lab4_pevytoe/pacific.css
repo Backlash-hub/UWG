@@ -1,0 +1,139 @@
+* { box-sizing: border-box; }
+body{
+    background-color: #EAEAEA;
+    color: #666666;
+    font-family: Verdana;
+}
+header{
+    height: 120px;
+    color:#FFFFFF;
+    background-color: #002171;
+    text-align: center;
+    font-family: Georgia;
+    padding-top: .5em;
+}
+header a:link{
+            text-decoration: none;
+        color: #FFFFFF
+    }
+    a:visited{
+        color: #FFFFFF
+    }
+    a:hover{
+        color: #90c7e3
+    }
+
+
+h1{
+    font-size: 3em;
+    letter-spacing: 0.25em;
+} 
+
+nav{
+    position: fixed;
+    font-weight: bold;
+    padding: 0em;
+    float: left;
+    font-size: 1.2em;
+    width: 160px;
+}
+
+div nav ul{
+    list-style-type: none;
+    padding-left: 1em;    
+}
+
+nav a{ 
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #5C7fa3
+}
+
+nav a:visited{
+    color: #344873
+}
+
+nav a:hover{
+    color: #A52A2A
+}
+h2{
+    color: #1976d2;
+    font-family: Georgia;
+}
+
+dt{
+    color: #002171;
+}
+
+.resort{
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+footer{
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
+}
+
+#wrapper{
+    background-color: #FFFFFF;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px black;
+    background-image:
+        linear-gradient(#FFFFFF, #90c7e3);
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+h3{
+    font-family: Georgia;
+}
+
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    overflow: auto;
+}
+
+#homehero{
+    height: 300px;
+    background-image: url(images/coast.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+    
+}
+
+#yurthero{
+    background-image: url(images/yurt.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+}
+
+#trailhero{
+    background-image: url(images/trail.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 170px;
+}
+section{
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}

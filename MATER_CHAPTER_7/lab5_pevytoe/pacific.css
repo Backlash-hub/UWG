@@ -1,0 +1,207 @@
+* { box-sizing: border-box; }
+body{
+    background-color: #90C7E3;
+    color: #666666;
+    font-family: Verdana;
+    margin: 0;
+}
+header{
+    color:#FFFFFF;
+    background-color: #002171;
+    text-align: center;
+    font-family: Georgia;
+    padding-top: .5em;
+    padding: 1em;
+}
+header a:link{
+            text-decoration: none;
+        color: #FFFFFF
+    }
+    a:visited{
+        color: #FFFFFF
+    }
+    a:hover{
+        color: #90c7e3
+    }
+
+
+h1{
+    font-size: 1.5em;
+} 
+
+nav{
+    background-color: white;    
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+ }
+
+nav li{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    border-style: solid;
+    border-bottom: 1px;
+}
+
+nav a{ 
+    text-decoration: none;
+}
+
+nav a:link{
+    color: #5C7fa3
+}
+
+nav a:visited{
+    color: #344873
+}
+
+nav a:hover{
+    color: #A52A2A
+}
+
+h2{
+    color: #1976d2;
+    font-family: Georgia;
+}
+
+dt{
+    color: #002171;
+}
+
+.resort{
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+#wrapper{
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+h3{
+    font-family: Georgia;
+}
+
+main{
+    padding-left: 2em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#homehero{
+    height: 300px;
+    background-image: url(images/coast.jpg);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;    
+}
+
+#yurthero{
+    background-image: url(images/yurt.jpg);
+    height: 300px;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+
+#trailhero{
+    background-image: url(images/trail.jpg);
+    height: 300px;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+
+section{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+footer{
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    background-color: #FFFFFF;
+}
+
+#mobile{
+    display: inline;
+}
+
+#desktop{
+    display: none;
+}
+
+@media (min-width: 600px){
+    h1{
+        font-size: 2em;
+        letter-spacing: .25em;
+    }
+
+nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding-right: 2em;
+    }
+
+    li{
+        width: 12em;
+        border-bottom: none;
+    }
+
+    section{
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    #flow{
+        display: flex;
+        flex-direction: row;        
+    }
+
+    #mobile{
+        display: none;
+    }
+
+    #desktop{
+        display: inline;
+    }
+    #homehero{
+        background-size: 100%, 100%;
+    }
+    #yurthero{
+        background-size: 100%, 100%;
+    }
+    #trailhero{
+        background-size: 100%, 100%;
+    }
+}
+@media  (min-width: 1024px) {
+    body{
+        background-image: linear-gradient(to bottom, #FFFFFF 20%,
+        #90C7E3 60%, #FFFFFF 100%);   
+    }
+
+    nav ul{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    #wrapper{
+        margin: auto;
+        width: 80%;
+    }
+    
+}
+
