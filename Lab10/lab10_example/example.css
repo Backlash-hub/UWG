@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.display-none {
+    display: none;
+}
+
+#result {
+    border: solid;
+    padding: 1em;
+    width: 250px;
+}
+
+.error {
+    color: red;
+}
+
+input[type=number] {
+    width: 100px;
+}
+
+#submit {
+    width: 250px;
+    margin-top: 20px;
+    background-color: #EEEEEE;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}

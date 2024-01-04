@@ -1,0 +1,11 @@
+/* the styles for the HTML elements */
+input, select {
+    box-sizing: border-box;
+    width: 15em;
+}
+.display-none {
+    display: none;
+}
+button {
+    width: 10em;
+}

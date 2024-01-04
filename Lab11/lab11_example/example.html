@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example for Lab 10</title>
+    <link rel="stylesheet" type="text/css" href="./example.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sum Calculator</h1>
+    </header>
+    <main>
+
+        <div id="display-sum">
+            <h2>Sum:</h2>
+            <div id="operation"></div>
+        </div>
+
+        <div id="add-operand">
+            <h2>Add Operand:</h2>
+            <form>
+                <input type="number" id="newoperand">
+                <button type="button" id="add">Add operand</button>
+            </form>
+        </div>
+
+        <div id="delete-operand">
+            <h2>Remove Operand:</h2>
+            <form>
+                <select id="operandselection">
+                    <option value="1">
+                        Operand
+                    </option>
+                </select>
+                <button type="button" id="remove">Remove operand</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./example.js"></script>
+</body>
+
+</html>

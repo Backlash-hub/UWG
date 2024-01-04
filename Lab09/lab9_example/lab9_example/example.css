@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+label {
+    float: left;
+    display: block;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+    width: 20em;
+}
+
+#submit {
+    margin-left: 9.6em;
+    width: 20em;
+}

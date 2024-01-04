@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Lab 9 Example</title>
+  <meta charset="utf-8">
+  <meta name="description" content="An example page to help with Lab 9">
+  <link rel="stylesheet" href="example.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <h1>Example for Lab 9</h1>
+  </header>
+  <main>
+    <form>
+      <label for="number">Enter a whole number:</label>
+      <input type="number" id="number" name="number"><br>
+      <div class="error display-none" id="number-error">The entered number must be &gt; 0.</div><br>
+      <input type="checkbox" id="prime" name="prime"> <label for="prime">Check for prime number</label><br>
+      <div id="submit">Display factors</div>
+    </form>
+
+    <div id="result" class="display-none">
+      The factors are: <span id="factors"></span>
+    </div>
+  </main>
+
+  <script src="./example.js"></script>
+</body>
+
+</html>
